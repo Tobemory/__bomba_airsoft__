@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+}
+body{
+    
+    background-color: #162A1C;
+}
+
+.header{
+    background: #499662;;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.title1{
+    background-color: #2B5439;
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h3{
+    background-color: #213F2B;
+    color: white;
+    text-align: center;
+}
+
+.texto{
+    background-color: #213F2B;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+}
+
+.juegos{
+    background-color:aliceblue;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.modalidades{
+    display: flex;
+}
+
+
+.headers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__opciones{
+    display: flex;
+    background-color: #213F2B;
+    justify-content: space-between;
+    border: 2px solid white;
+
+}
+
+.texto1{
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.texto1 a{
+    color: white;
+}
+
+.cuentas{
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.box1{
+    max-width: 50%;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #499662;
+    border: 3px solid white;
+}
+
+form{
+    max-width: 50%;
+    display: block;
+    align-items: center;
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20% 20%;
+    background-color: white;
+    height: auto;
+    border-radius: 10px;
+}
+
+form .grupo{
+    position: relative;
+    margin-top: 30%;
+}
+
+.title2{
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #499662;
+    color:black;
+}
+
+.registro{
+    display: block;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #499662 ;
+}
+
+input:focus{
+    outline: none;
+    color:#162A1C;
+}
+
+.text3{
+    position: absolute;
+    left: 5px;
+    top: -1px;
+    transition: 0,5s ease all;
+    pointer-events: none;
+    color: rgb(160, 147, 122);
+}
+
+input:focus~label,
+input:valid~label{
+    top: -14px;
+    font-size: 12px;
+    color:#162A1C;
+}
